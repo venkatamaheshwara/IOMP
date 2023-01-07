@@ -20,7 +20,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('bg-3.jpg')
+add_bg_from_local('bg-1.jpg')
 
  #to insert content
 st.markdown('<style>h1{color: rgb(255,255,255);font-size:5rem}</style>', unsafe_allow_html=True)
