@@ -32,8 +32,7 @@ st.write("Hi there! If you have a skincare product you currently like We can hel
 st.write('Please select a product below so to recommend similar ones ')
 #st.write('My dataset contains 1400+ products :star2: but unfortunately it is possible that I do not have the product you are looking for :disappointed:')
 # Load the data
-df = pd.read_csv(".
-/cosmetic_dataset.csv")
+df = pd.read_csv("./cosmetic_dataset.csv")
 
 # Choose a product category
 st.markdown('<style>.css-k3w14i{color: #3B0404;font-size:1.5rem;font-weight:bold}</style>', unsafe_allow_html=True)
